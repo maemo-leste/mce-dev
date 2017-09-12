@@ -1,3 +1,9 @@
+mce-dev (1.8.19) unstable; urgency=medium
+
+  * enable git builds
+
+ -- Ivan J. <parazyd@dyne.org>  Tue, 12 Sep 2017 22:05:00 +0200
+
 mce-dev (1.8.19+0m5) unstable; urgency=low
 
   * This entry has been added by BIFH queue processor
