@@ -21,6 +21,7 @@ INCLUDE_FILES := $(INCDIR)/dbus-names.h $(INCDIR)/mode-names.h
 
 .PHONY: doc
 doc:
+	-mkdir $(DOCDIR)
 	@$(DOXYGEN) 2> $(TOPDIR)/doc/warnings > /dev/null
 
 clean:
