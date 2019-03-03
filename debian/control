@@ -1,7 +1,7 @@
 Source: mce-dev
 Section: devel
 Priority: optional
-Maintainer: David Weinehall <david.weinehall@nokia.com>
+Maintainer: Arthur Demchenkov <spinal.by@gmail.com>
 Build-Depends: debhelper (>= 10)
 Build-Depends-Indep: doxygen
 Standards-Version: 3.7.3
