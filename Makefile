@@ -28,9 +28,14 @@ clean:
 	@if [ x"$(DOCDIR)" != x"" ]; then	\
 		rm -rf $(DOCDIR)/*;		\
 	fi
+	rm -f $(PCFILE)
+
+$(PCFILE): $(PCFILE).in
+	VERSION=$(shell dpkg-parsechangelog | sed -ne 's/^Version: //p') && \
+	sed "s/@VERSION@/$$VERSION/g" $< > $@
 
 .PHONY: install
-install: doc
+install: doc $(PCFILE)
 	$(INSTALL_DIR) $(PCDIR) $(INCLUDEDIR)				&&\
 	$(INSTALL_DATA) $(PCFILE) $(PCDIR)				&&\
 	$(INSTALL_DATA) $(INCLUDE_FILES) $(INCLUDEDIR)
