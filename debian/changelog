@@ -1,3 +1,9 @@
+mce-dev (1.8.21) unstable; urgency=medium
+
+  * Add multiarch support
+
+ -- Arthur Demchenkov <spinal.by@gmail.com>  Sun, 03 Mar 2019 20:16:16 +0300
+
 mce-dev (1.8.20) unstable; urgency=medium
 
   * enable git builds
