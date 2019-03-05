@@ -1,5 +1,5 @@
-prefix=/usr
-includedir=${prefix}/include
+prefix=@prefix@
+includedir=@includedir@
 
 Name: mce
 Description: Mode Control Entity

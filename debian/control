@@ -8,8 +8,8 @@ Standards-Version: 4.3.0
 
 Package: mce-dev
 Suggests: mce-doc
-Architecture: all
-Multi-arch: foreign
+Architecture: any
+Multi-arch: same
 Description: Development files for mce
  This package contains headers defining the D-Bus method calls
  provided by the Mode Control Entity, and the signals emitted by it.
