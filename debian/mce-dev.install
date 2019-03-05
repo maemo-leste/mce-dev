@@ -1,2 +1,2 @@
-debian/tmp/usr/lib/pkgconfig/*
-debian/tmp/usr/include/mce/*
+usr/lib/pkgconfig/*
+usr/include/mce/*
